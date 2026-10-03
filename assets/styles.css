@@ -134,7 +134,7 @@ button{font:inherit;color:inherit}
 .footer{background:var(--accent);color:#fff;border-top:0}
 .footer-inner{max-width:var(--max);margin:0 auto;padding:26px var(--pad);display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:30px}
 .footer-name{margin:0;font-family:var(--serif);font-size:20px;font-weight:400;white-space:nowrap;color:#fff}
-.footer-nav{display:flex;justify-content:flex-end;align-items:center;gap:8px 12px;flex-wrap:wrap}
+.footer-nav{display:flex;justify-content:flex-end;align-items:center;gap:12px 28px;flex-wrap:wrap}
 .footer-nav a{display:inline-flex;align-items:center;gap:8px;padding:8px 9px;border-radius:3px;color:rgba(255,255,255,.9);text-decoration:none;font-size:11px;line-height:1.1;letter-spacing:.045em;font-weight:800;transition:background .18s ease,color .18s ease,transform .18s ease}
 .footer-nav a:hover,.footer-nav a:focus-visible{background:rgba(255,255,255,.16);color:#fff;transform:translateY(-1px)}
 .footer-icon{width:19px;height:19px;flex:0 0 19px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
