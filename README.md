@@ -1,4 +1,4 @@
-[[agustincortesmarcos.com]](https://agustincortesmarcos.com/)
+[agustincortesmarcos.com](https://agustincortesmarcos.com/)
 
 Repositorio principal del sitio web agustincortesmarcos, disponible en https://agustincortesmarcos.com.
 Este repositorio contiene una copia versionada de los archivos que componen el sitio y se utiliza como referencia histórica antes, durante y después de realizar modificaciones en la web.
