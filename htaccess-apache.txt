@@ -1,0 +1,18 @@
+# SOLO si el hosting usa Apache. Renombrar a .htaccess en la raíz pública.
+# Evita que reglas de reescritura envíen sitemap.xml o robots.txt a index.html.
+
+Options -MultiViews
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(?:sitemap(?:-test)?\.xml|robots\.txt)$ - [L]
+</IfModule>
+
+<IfModule mod_mime.c>
+AddType application/xml .xml
+AddType text/plain .txt
+</IfModule>
+
+<FilesMatch "^(sitemap(?:-test)?\.xml|robots\.txt)$">
+  Require all granted
+</FilesMatch>
