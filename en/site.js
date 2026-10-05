@@ -319,7 +319,7 @@ document.querySelectorAll('[data-open-book]').forEach(button => {
       if (editionSource) {
         dEdition.hidden = false;
         dEditionImg.src = editionSource.currentSrc || editionSource.src;
-        dEditionImg.alt = `Datos de edición de ${data.title}: longitud de impresión, idioma, fecha de publicación, dimensiones e ISBN-13`;
+        dEditionImg.alt = `Edition details for ${data.title}: print length, language, publication date, dimensions and ISBN-13`;
       } else {
         dEdition.hidden = true;
         dEditionImg.removeAttribute('src');
@@ -377,7 +377,7 @@ document.querySelectorAll('[data-open-book]').forEach(button => {
         a.href = link.url;
         a.target = '_blank';
         a.rel = 'noopener noreferrer';
-        a.setAttribute('aria-label', `Comprar ${data.title} en ${link.label}`);
+        a.setAttribute('aria-label', `Buy ${data.title} on ${link.label}`);
         a.innerHTML = `Buy on ${link.label} <span>↗</span>`;
         dBuyList.appendChild(a);
       });
