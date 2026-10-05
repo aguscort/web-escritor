@@ -454,7 +454,7 @@ const renderQuote = i => {
 document.querySelector('[data-quote-prev]')?.addEventListener('click', () => renderQuote(quoteIndex - 1));
 document.querySelector('[data-quote-next]')?.addEventListener('click', () => renderQuote(quoteIndex + 1));
 
-let timer = setInterval(() => renderQuote(quoteIndex + 1), 6500);
+let timer = setInterval(() => renderQuote(quoteIndex + 1), 10000);
 document.querySelector('[data-quote-deck]')?.addEventListener('mouseenter', () => clearInterval(timer));
 
 document.querySelectorAll('[data-jump-book]').forEach(link => {
