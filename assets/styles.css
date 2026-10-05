@@ -895,7 +895,7 @@ body.book-dialog-open{
 /* v56 · corrección de jerarquía del wordmark */
 .wordmark-name{display:none!important}
 .wordmark{gap:0}
-.wordmark-monogram{width:80px;height:80px;flex:0 0 80px}
+.wordmark-monogram{width:120px;height:90;flex:0 0 110px}
 .hero-author-logo{display:block;width:clamp(300px,48vw,760px);max-width:100%;height:auto;object-fit:contain;object-position:left center;margin:clamp(14px,2vw,26px) 0 clamp(24px,3vw,42px)}
 .hero-copy h1.hero-author-title{font-size:0;line-height:0;margin:0;padding:0;max-width:none}
 .author-label>p{display:none!important}
