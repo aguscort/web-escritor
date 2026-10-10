@@ -939,3 +939,19 @@ body.book-dialog-open{
 /* v58 — icono superior: lettering negro sobre el fondo transparente de la barra */
 .wordmark-monogram{background:transparent!important;border:0!important;box-shadow:none!important;overflow:visible!important}
 .wordmark-monogram-logo{width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important}
+
+/* ===== SEO (oct. 2026): enlaces internos hacia las fichas de cada libro ===== */
+.book-info h3 a{color:inherit;text-decoration:none}
+.book-info h3 a:hover,.book-info h3 a:focus-visible{text-decoration:underline;text-decoration-thickness:.04em;text-underline-offset:.1em}
+.section-intro p a,.author-copy p a{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.18em}
+.section-intro p a:hover,.section-intro p a:focus-visible{color:var(--accent)}
+.dialog-page-link{display:inline-block;margin-top:22px;color:var(--ink);text-decoration:none}
+.dialog-page-link[hidden]{display:none}
+.dialog-page-link:hover,.dialog-page-link:focus-visible{color:var(--accent);border-color:var(--accent)}
+
+/* Corrección móvil (oct. 2026): la regla @media (max-width:1180px) va después de la de 980px y
+   dejaba el hero a dos columnas también en teléfonos: el texto quedaba en una columna de 0–34 px,
+   tapado por las portadas, y el logotipo del <h1> no se veía (0×0). En móvil vuelve a una columna. */
+@media (max-width:720px){
+  .hero{grid-template-columns:minmax(0,1fr)}
+}

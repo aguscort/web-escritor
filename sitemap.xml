@@ -1,17 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://agustincortesmarcos.com/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/en/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/libros/la-pesadilla-de-bradbury/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/en/libros/la-pesadilla-de-bradbury/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/libros/cuentos-de-la-abuela-robot/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/en/libros/cuentos-de-la-abuela-robot/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/libros/las-reglas-de-la-casa/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/en/libros/las-reglas-de-la-casa/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/libros/intemperie/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/en/libros/intemperie/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/libros/el-ano-que-solo-hubo-primavera/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/en/libros/el-ano-que-solo-hubo-primavera/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/libros/nadie-nace-sabiendo/</loc></url>
-  <url><loc>https://agustincortesmarcos.com/en/libros/nadie-nace-sabiendo/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://agustincortesmarcos.com/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/en/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/libros/el-ano-que-solo-hubo-primavera/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/el-ano-que-solo-hubo-primavera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/el-ano-que-solo-hubo-primavera/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/el-ano-que-solo-hubo-primavera/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/en/libros/el-ano-que-solo-hubo-primavera/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/el-ano-que-solo-hubo-primavera/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/el-ano-que-solo-hubo-primavera/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/el-ano-que-solo-hubo-primavera/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/libros/intemperie/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/intemperie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/intemperie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/intemperie/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/en/libros/intemperie/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/intemperie/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/intemperie/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/intemperie/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/libros/las-reglas-de-la-casa/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/las-reglas-de-la-casa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/las-reglas-de-la-casa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/las-reglas-de-la-casa/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/en/libros/las-reglas-de-la-casa/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/las-reglas-de-la-casa/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/las-reglas-de-la-casa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/las-reglas-de-la-casa/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/libros/cuentos-de-la-abuela-robot/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/cuentos-de-la-abuela-robot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/cuentos-de-la-abuela-robot/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/cuentos-de-la-abuela-robot/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/en/libros/cuentos-de-la-abuela-robot/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/cuentos-de-la-abuela-robot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/cuentos-de-la-abuela-robot/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/cuentos-de-la-abuela-robot/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/libros/la-pesadilla-de-bradbury/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/la-pesadilla-de-bradbury/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/la-pesadilla-de-bradbury/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/la-pesadilla-de-bradbury/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/en/libros/la-pesadilla-de-bradbury/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/la-pesadilla-de-bradbury/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/la-pesadilla-de-bradbury/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/la-pesadilla-de-bradbury/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/libros/nadie-nace-sabiendo/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/nadie-nace-sabiendo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/nadie-nace-sabiendo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/nadie-nace-sabiendo/"/>
+  </url>
+  <url>
+    <loc>https://agustincortesmarcos.com/en/libros/nadie-nace-sabiendo/</loc>
+    <lastmod>2026-10-11</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://agustincortesmarcos.com/libros/nadie-nace-sabiendo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://agustincortesmarcos.com/en/libros/nadie-nace-sabiendo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://agustincortesmarcos.com/libros/nadie-nace-sabiendo/"/>
+  </url>
 </urlset>

@@ -265,6 +265,7 @@ const dFragmentSection = dialog?.querySelector('.dialog-fragment');
 const dFactsSection = dialog?.querySelector('.dialog-facts');
 const dEdition = dialog?.querySelector('[data-dialog-edition]');
 const dEditionImg = dialog?.querySelector('[data-dialog-edition-img]');
+const dPage = dialog?.querySelector('[data-dialog-page]');
 
 
 let bookDialogPageY = 0;
@@ -305,6 +306,12 @@ document.querySelectorAll('[data-open-book]').forEach(button => {
     const bookCard = document.querySelector(`[data-book="${button.dataset.openBook}"]`);
     const cardCover = bookCard?.querySelector('.book-visual img');
     dCover.src = cardCover?.currentSrc || cardCover?.src || data.cover;
+    // Enlace a la ficha completa del libro: cada libro tiene su propia página indexable.
+    if (dPage) {
+      const slug = bookCard?.id;
+      dPage.hidden = !slug;
+      if (slug) dPage.href = `libros/${slug}/`;
+    }
     dCover.alt = `Portada de ${data.title}`;
     dType.textContent = data.type;
     dTitle.textContent = data.title;
