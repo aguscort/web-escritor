@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Libre Bodoni";
+  src: url("fonts/LibreBodoni-Regular.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Libre Bodoni";
+  src: url("fonts/LibreBodoni-Bold.otf") format("opentype");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+/* Sitewide treatment: Bodoni for compact interface text, not body copy or display headings. */
+:root { --micro-serif: "Libre Bodoni", "Bodoni MT", Didot, Georgia, serif; }
+.nav a,
+.nav-toggle span,
+.eyebrow,
+.button,
+.hero-meta span,
+.hero-stamp span,
+.book-index,
+.text-button,
+.book-page-link,
+.buy-link,
+.unpublished-link,
+.footer-nav a,
+.quote-card footer,
+.dialog-availability,
+.dialog-detail,
+.anthology-story,
+.cover-status,
+small,
+figcaption,
+.metadata,
+.book-meta,
+.author-label,
+.back,
+.book-lang,
+.status,
+.provisional,
+.fragment h2,
+.buy h2,
+.edition-data h2,
+.related-books h2,
+.catalogue-link,
+.book-footer a {
+  font-family: var(--micro-serif) !important;
+  font-weight: 700;
+  letter-spacing: .055em;
+}
+.eyebrow { letter-spacing: .13em; }
+.hero-meta span, .book-index, .quote-card footer, .dialog-availability { letter-spacing: .08em; }
+.button, .text-button, .book-page-link, .buy-link, .unpublished-link { letter-spacing: .045em; }
